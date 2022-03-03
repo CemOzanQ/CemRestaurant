@@ -1,0 +1,254 @@
+.ana {
+  width: 100%;
+}
+.sil {
+  clear: both;
+}
+a:hover {
+  background-color: rgb(153, 102, 142);
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(153, 102, 142);
+}
+
+/* Menu */
+header {
+  background-color: black;
+  width: 100%;
+  height: 125px;
+  background-image: url(img/Adsız-3.png);
+}
+.header-logo {
+  width: 140px;
+  height: 100px;
+  float: left;
+  margin-top: 12px;
+  margin-left: 24px;
+  margin-bottom: 14px;
+  background-image: url(img/logo.png);
+}
+.menu {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.menu a {
+  height: 24px;
+  display: block;
+  text-decoration: none;
+  line-height: 24px;
+  text-align: right;
+  padding: 18px;
+  color: #69008c;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.menu li {
+  float: right;
+  display: block;
+  position: relative;
+  top: 30px;
+}
+
+/* AnaSayfa icerik */
+.giris {
+  width: 1310px;
+  margin: auto;
+  height: 700px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.giris-arka {
+  width: 640px;
+  height: 450px;
+  background-color: black;
+  position: relative;
+  top: 100px;
+  left: 360px;
+  z-index: 2;
+  opacity: 80%;
+}
+.icerik-div {
+  width: 640px;
+  height: 450px;
+  margin-left: 345px;
+  margin-right: 335px;
+  margin-top: -50px;
+  z-index: 3;
+  position: absolute;
+  top: 275px;
+}
+.icerik-div h3 {
+  padding: 20px;
+  position: absolute;
+  top: 120px;
+  left: 30px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.giris-icerik-butonlar {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 150px;
+  list-style-type: none;
+  margin-top: 50px;
+}
+.giris-icerik-butonlar a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  line-height: 44px;
+}
+.giris-icerik-butonlar-video {
+  display: block;
+  width: 200px;
+  height: 44px;
+  background-color: #69008c;
+  float: left;
+  position: relative;
+  left: 85px;
+}
+.giris-icerik-butonlar-360 {
+  display: block;
+  width: 200px;
+  height: 44px;
+  background-color: #69008c;
+  float: right;
+  position: relative;
+  right: 75px;
+}
+.foto img {
+  width: 100%;
+  height: 700px;
+  margin-top: -450px;
+  margin-bottom: -5px;
+}
+/* Menümüz */
+.ymkmenu-giris {
+  width: 1310px;
+  margin: auto;
+  height: 700px;
+  margin-top: -200px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.ymkmenu-arka {
+  width: 1210px;
+  height: 650px;
+  background-color: black;
+  position: relative;
+  top: 225px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+  z-index: 2;
+  opacity: 80%;
+}
+.ymkmenu-icerik {
+  width: 1220px;
+  height: 650px;
+  margin-top: -640px;
+  position: absolute;
+  margin-left: 50px;
+  z-index: 3;
+}
+.ymkmenu-baslik {
+  position: absolute;
+  top: -33px;
+  left: 530px;
+  font-size: 25px;
+  color: white;
+  background-color: #69008c;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 25%;
+}
+.ymkmenu {
+  width: 300px;
+  display: block;
+  height: 600px;
+  float: left;
+  padding-top: 10px;
+  font-size: 20px;
+  border-left: 1px solid #69008c;
+  border-right: 1px solid #69008c;
+}
+.ymkmenu img {
+  width: 275px;
+  height: 200px;
+}
+.ymkmenu p {
+  padding: 10px;
+}
+.ymkmenu-buton {
+  display: block;
+  width: 250px;
+  height: 44px;
+  background-color: #69008c;
+  margin: auto;
+  line-height: 44px;
+  text-decoration: none;
+  font-size: 20px;
+  color: whitesmoke;
+}
+/* Harita */
+.adres-giris {
+  width: 1310px;
+  margin: auto;
+  height: 700px;
+  margin-top: -200px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.adres-arka {
+  width: 1210px;
+  height: 650px;
+  background-color: black;
+  position: relative;
+  top: 225px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+  z-index: 2;
+  opacity: 80%;
+}
+.adres-harita {
+  width: 1220px;
+  height: 600px;
+  margin-top: -575px;
+  position: absolute;
+  margin-left: 45px;
+  z-index: 3;
+}
+.adres-baslik {
+  width: 1310px;
+  position: absolute;
+  top: 170px;
+  color: white;
+  margin: auto;
+  z-index: 3;
+  font-size: 30px;
+}
+/* Footer */
+footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: 1308px;
+  height: 40px;
+  background-color: #69008c;
+  line-height: 40px;
+  margin: auto;
+  color: beige;
+  border: solid 1px black;
+}
+footer img {
+  width: 39px;
+  height: 35px;
+}
